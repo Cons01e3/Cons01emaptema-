@@ -1,0 +1,1844 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f1025757eac7b44ebb39394653d7d0ae {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f1025757eac7b44ebb39394653d7d0ae" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f1025757eac7b44ebb39394653d7d0ae = L.map(
+                "map_f1025757eac7b44ebb39394653d7d0ae",
+                {
+                    center: [53.2, 45.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_48f223bae230b5b64fce6f8ee04f7965 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var marker_cluster_c36509f374f334db9bb3b10961b3c37b = L.markerClusterGroup(
+                {}
+            );
+            map_f1025757eac7b44ebb39394653d7d0ae.addLayer(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var marker_e39a324db0ff5ea6bf752af76de44706 = L.marker(
+                [53.206752, 45.034009],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_13f97804428ba7f0589cdc336180cbb1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e39a324db0ff5ea6bf752af76de44706.setIcon(icon_13f97804428ba7f0589cdc336180cbb1);
+        
+    
+        var popup_bc59713c0cf51e6fce9d898d2e5d90e8 = L.popup({"maxWidth": 400});
+
+        
+            var html_1ddf35802f6e59444eb64e257904683f = $(`<div id="html_1ddf35802f6e59444eb64e257904683f" style="width: 100.0%; height: 100.0%;">Пензенская Область<br>Пенза<br>Адрес доставки<br>ВАЗ 21110 2001С591СО58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_bc59713c0cf51e6fce9d898d2e5d90e8.setContent(html_1ddf35802f6e59444eb64e257904683f);
+        
+
+        marker_e39a324db0ff5ea6bf752af76de44706.bindPopup(popup_bc59713c0cf51e6fce9d898d2e5d90e8)
+        ;
+
+        
+    
+    
+            var marker_aad86e54ab61b4d51fd056311252dff0 = L.marker(
+                [53.206752, 45.034009],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_33e38d127e7eba0b1a619b1c46a9ee8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aad86e54ab61b4d51fd056311252dff0.setIcon(icon_33e38d127e7eba0b1a619b1c46a9ee8d);
+        
+    
+        var popup_b4e5a44b93ab4265b07e78d1d4aacdc9 = L.popup({"maxWidth": 400});
+
+        
+            var html_aa691d4fb497fb79e5586d5591c57b58 = $(`<div id="html_aa691d4fb497fb79e5586d5591c57b58" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>ЗАЗ SENS 2009М467УТ58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_b4e5a44b93ab4265b07e78d1d4aacdc9.setContent(html_aa691d4fb497fb79e5586d5591c57b58);
+        
+
+        marker_aad86e54ab61b4d51fd056311252dff0.bindPopup(popup_b4e5a44b93ab4265b07e78d1d4aacdc9)
+        ;
+
+        
+    
+    
+            var marker_469d5cda9ccbd7ad8bbdedd4d39614f7 = L.marker(
+                [53.17702, 45.10592],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_5a3d3f5664b2d872f6e4467ed7d1133b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_469d5cda9ccbd7ad8bbdedd4d39614f7.setIcon(icon_5a3d3f5664b2d872f6e4467ed7d1133b);
+        
+    
+        var popup_059a9e8b699d974aa6f760b15c323a68 = L.popup({"maxWidth": 400});
+
+        
+            var html_e72a6296c09a914f312ac5b3e2ffdf15 = $(`<div id="html_e72a6296c09a914f312ac5b3e2ffdf15" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>ВИС2347-0000012  У385ВТ64<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_059a9e8b699d974aa6f760b15c323a68.setContent(html_e72a6296c09a914f312ac5b3e2ffdf15);
+        
+
+        marker_469d5cda9ccbd7ad8bbdedd4d39614f7.bindPopup(popup_059a9e8b699d974aa6f760b15c323a68)
+        ;
+
+        
+    
+    
+            var marker_95dec07891e0824240a133b0dc0de8ed = L.marker(
+                [53.250011, 45.014624],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_873bec3b5c157487b4502847779e328a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_95dec07891e0824240a133b0dc0de8ed.setIcon(icon_873bec3b5c157487b4502847779e328a);
+        
+    
+        var popup_1a4b36450ba9511d1a2a0351c949a252 = L.popup({"maxWidth": 400});
+
+        
+            var html_23e102dfe743ca75ecdae8d6104e5e22 = $(`<div id="html_23e102dfe743ca75ecdae8d6104e5e22" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>ВАЗ211122005О245РС58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_1a4b36450ba9511d1a2a0351c949a252.setContent(html_23e102dfe743ca75ecdae8d6104e5e22);
+        
+
+        marker_95dec07891e0824240a133b0dc0de8ed.bindPopup(popup_1a4b36450ba9511d1a2a0351c949a252)
+        ;
+
+        
+    
+    
+            var marker_e792c2c25811738dc6ebc7aea4434059 = L.marker(
+                [53.207399, 44.989121],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_a456ea29bd0e1b9fb8fec673c3ed4348 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e792c2c25811738dc6ebc7aea4434059.setIcon(icon_a456ea29bd0e1b9fb8fec673c3ed4348);
+        
+    
+        var popup_ebbcc359a212b9668a2a88d3d74f357b = L.popup({"maxWidth": 400});
+
+        
+            var html_4792090b6d4cce11babfdfbf95558ccf = $(`<div id="html_4792090b6d4cce11babfdfbf95558ccf" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>ОРЕL СОRSА 2007 О541ВА58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_ebbcc359a212b9668a2a88d3d74f357b.setContent(html_4792090b6d4cce11babfdfbf95558ccf);
+        
+
+        marker_e792c2c25811738dc6ebc7aea4434059.bindPopup(popup_ebbcc359a212b9668a2a88d3d74f357b)
+        ;
+
+        
+    
+    
+            var marker_cd415fd0258df49991dbf73e06bef6f8 = L.marker(
+                [53.166429, 44.990378],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_f47f43e4f2b77a806f0ba9d5da74c24f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cd415fd0258df49991dbf73e06bef6f8.setIcon(icon_f47f43e4f2b77a806f0ba9d5da74c24f);
+        
+    
+        var popup_09dff57f89560a130d95cd6843707d24 = L.popup({"maxWidth": 400});
+
+        
+            var html_343e9509ccc471cbe5ae66ffe9416973 = $(`<div id="html_343e9509ccc471cbe5ae66ffe9416973" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>CHERYTII TIGGOС324НМ58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_09dff57f89560a130d95cd6843707d24.setContent(html_343e9509ccc471cbe5ae66ffe9416973);
+        
+
+        marker_cd415fd0258df49991dbf73e06bef6f8.bindPopup(popup_09dff57f89560a130d95cd6843707d24)
+        ;
+
+        
+    
+    
+            var marker_eaa1e5fc2d27ac592bcdd61419a083cb = L.marker(
+                [53.166429, 44.990378],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_c2acf5f3535d7c8a7d3f1d0cf3593c83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eaa1e5fc2d27ac592bcdd61419a083cb.setIcon(icon_c2acf5f3535d7c8a7d3f1d0cf3593c83);
+        
+    
+        var popup_a0dd98ff574ece2a89b254c62bf37a4a = L.popup({"maxWidth": 400});
+
+        
+            var html_9ff647f3b98f2313ec2e606b66892ff7 = $(`<div id="html_9ff647f3b98f2313ec2e606b66892ff7" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>ЧЕРИT11 TIGGOС118ОВ58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_a0dd98ff574ece2a89b254c62bf37a4a.setContent(html_9ff647f3b98f2313ec2e606b66892ff7);
+        
+
+        marker_eaa1e5fc2d27ac592bcdd61419a083cb.bindPopup(popup_a0dd98ff574ece2a89b254c62bf37a4a)
+        ;
+
+        
+    
+    
+            var marker_f8690cf233dca2b82338ef762281ccfd = L.marker(
+                [53.222358, 45.045804],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_7bf22aa00f8c3aecf6e43ad332d060a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f8690cf233dca2b82338ef762281ccfd.setIcon(icon_7bf22aa00f8c3aecf6e43ad332d060a2);
+        
+    
+        var popup_bbfbb102c15a0af519d1bb31a02d71aa = L.popup({"maxWidth": 400});
+
+        
+            var html_44c41b7ec323f4ff462f7d4b741fd0dd = $(`<div id="html_44c41b7ec323f4ff462f7d4b741fd0dd" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>NISSANJUKEР560ОЕ58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_bbfbb102c15a0af519d1bb31a02d71aa.setContent(html_44c41b7ec323f4ff462f7d4b741fd0dd);
+        
+
+        marker_f8690cf233dca2b82338ef762281ccfd.bindPopup(popup_bbfbb102c15a0af519d1bb31a02d71aa)
+        ;
+
+        
+    
+    
+            var marker_9d8f501d497e8b464be9d17a7ac8476c = L.marker(
+                [53.222358, 45.045804],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_9875fd14b2db850a5939d08d70a2dca8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9d8f501d497e8b464be9d17a7ac8476c.setIcon(icon_9875fd14b2db850a5939d08d70a2dca8);
+        
+    
+        var popup_3ec0b415309655a667e0ca66c7c0192d = L.popup({"maxWidth": 400});
+
+        
+            var html_d8dd5442b78bf9e67e3952b34d51c853 = $(`<div id="html_d8dd5442b78bf9e67e3952b34d51c853" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>МАЗДА3Т773ЕС58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_3ec0b415309655a667e0ca66c7c0192d.setContent(html_d8dd5442b78bf9e67e3952b34d51c853);
+        
+
+        marker_9d8f501d497e8b464be9d17a7ac8476c.bindPopup(popup_3ec0b415309655a667e0ca66c7c0192d)
+        ;
+
+        
+    
+    
+            var marker_935486b5d89c213ba390535ba750fa68 = L.marker(
+                [53.172448, 44.99717],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_dccb0b874db05aaef87469ce1487b7b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_935486b5d89c213ba390535ba750fa68.setIcon(icon_dccb0b874db05aaef87469ce1487b7b1);
+        
+    
+        var popup_3ae36727cc099f93f39947deea68e988 = L.popup({"maxWidth": 400});
+
+        
+            var html_823abd14cb62b28ed4417b2142ad005e = $(`<div id="html_823abd14cb62b28ed4417b2142ad005e" style="width: 100.0%; height: 100.0%;">Адрес регистрации<br>ЛАДА 219010 ЛАДА ГРАНТА2017Р409НТ58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_3ae36727cc099f93f39947deea68e988.setContent(html_823abd14cb62b28ed4417b2142ad005e);
+        
+
+        marker_935486b5d89c213ba390535ba750fa68.bindPopup(popup_3ae36727cc099f93f39947deea68e988)
+        ;
+
+        
+    
+    
+            var marker_23ea99c24c3e5136e461be1e77049058 = L.marker(
+                [53.157462, 45.028134],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_b49e911fb70bec5bbc9ffb5ce7714c80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_23ea99c24c3e5136e461be1e77049058.setIcon(icon_b49e911fb70bec5bbc9ffb5ce7714c80);
+        
+    
+        var popup_cbba3f55b2b5c2e55aa51af2709451fc = L.popup({"maxWidth": 400});
+
+        
+            var html_ceb67221abbb65a83e1ccde15822c3d1 = $(`<div id="html_ceb67221abbb65a83e1ccde15822c3d1" style="width: 100.0%; height: 100.0%;">Фактический адрес<br>ЛАДА 219010 ЛАДА ГРАНТА2017Р409НТ58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_cbba3f55b2b5c2e55aa51af2709451fc.setContent(html_ceb67221abbb65a83e1ccde15822c3d1);
+        
+
+        marker_23ea99c24c3e5136e461be1e77049058.bindPopup(popup_cbba3f55b2b5c2e55aa51af2709451fc)
+        ;
+
+        
+    
+    
+            var marker_24b91f662919ce612fe9aa921fef4ffd = L.marker(
+                [53.222293, 44.99646],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_4c281712219708e71fa99b12b03d7e07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_24b91f662919ce612fe9aa921fef4ffd.setIcon(icon_4c281712219708e71fa99b12b03d7e07);
+        
+    
+        var popup_2bd4d22496cb6169b0aaaab2d7c18107 = L.popup({"maxWidth": 400});
+
+        
+            var html_a1ed88456acd30950134e83606038e14 = $(`<div id="html_a1ed88456acd30950134e83606038e14" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>LADA GRANTA 2194402023Т125ОС58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_2bd4d22496cb6169b0aaaab2d7c18107.setContent(html_a1ed88456acd30950134e83606038e14);
+        
+
+        marker_24b91f662919ce612fe9aa921fef4ffd.bindPopup(popup_2bd4d22496cb6169b0aaaab2d7c18107)
+        ;
+
+        
+    
+    
+            var marker_f36c941d222c2e2da92ec420bbfbcd1a = L.marker(
+                [53.213628, 45.056225],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_0b1ed09e41587715216f9c338c1be5eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f36c941d222c2e2da92ec420bbfbcd1a.setIcon(icon_0b1ed09e41587715216f9c338c1be5eb);
+        
+    
+        var popup_be02e16fa86e1191b51176b13113c898 = L.popup({"maxWidth": 400});
+
+        
+            var html_a47a9ffc312bb229988dce1b3ec34840 = $(`<div id="html_a47a9ffc312bb229988dce1b3ec34840" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>RENAULT DUSTER2012О538КР58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_be02e16fa86e1191b51176b13113c898.setContent(html_a47a9ffc312bb229988dce1b3ec34840);
+        
+
+        marker_f36c941d222c2e2da92ec420bbfbcd1a.bindPopup(popup_be02e16fa86e1191b51176b13113c898)
+        ;
+
+        
+    
+    
+            var marker_b141120323a420bece338dd45f3eb75a = L.marker(
+                [53.231312, 45.064894],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_82cad931c993eaf594eea29ecb444b1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b141120323a420bece338dd45f3eb75a.setIcon(icon_82cad931c993eaf594eea29ecb444b1e);
+        
+    
+        var popup_60d880d351d389abd093bb9648ab3112 = L.popup({"maxWidth": 400});
+
+        
+            var html_8537dd2b115e9a3e29dd50f7058022e9 = $(`<div id="html_8537dd2b115e9a3e29dd50f7058022e9" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>KIA SPECTRA (FB2272)2008Т240РН58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_60d880d351d389abd093bb9648ab3112.setContent(html_8537dd2b115e9a3e29dd50f7058022e9);
+        
+
+        marker_b141120323a420bece338dd45f3eb75a.bindPopup(popup_60d880d351d389abd093bb9648ab3112)
+        ;
+
+        
+    
+    
+            var marker_555aed0c41cf202cd87d5779c04ab7ee = L.marker(
+                [53.143907, 45.024209],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_bb28df949347afa18f816ecdef15f3e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_555aed0c41cf202cd87d5779c04ab7ee.setIcon(icon_bb28df949347afa18f816ecdef15f3e8);
+        
+    
+        var popup_6dfd3371530baec25eb7485543c16ffa = L.popup({"maxWidth": 400});
+
+        
+            var html_8036859acb505caa855bf15ea73037ee = $(`<div id="html_8036859acb505caa855bf15ea73037ee" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>MAZDA6  Т370КК58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_6dfd3371530baec25eb7485543c16ffa.setContent(html_8036859acb505caa855bf15ea73037ee);
+        
+
+        marker_555aed0c41cf202cd87d5779c04ab7ee.bindPopup(popup_6dfd3371530baec25eb7485543c16ffa)
+        ;
+
+        
+    
+    
+            var marker_67c1db7f742ba3e5b9a6e1563e11c738 = L.marker(
+                [53.143907, 45.024209],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_44c3d4e106c8f86a2d3ab49787ee7090 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_67c1db7f742ba3e5b9a6e1563e11c738.setIcon(icon_44c3d4e106c8f86a2d3ab49787ee7090);
+        
+    
+        var popup_d1f85f9ff6a3dd8892aca8defd5310cc = L.popup({"maxWidth": 400});
+
+        
+            var html_b2f45a34d60ae61f51d0452a4a8ca3c8 = $(`<div id="html_b2f45a34d60ae61f51d0452a4a8ca3c8" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>КИАРИО  Т692ЕТ58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_d1f85f9ff6a3dd8892aca8defd5310cc.setContent(html_b2f45a34d60ae61f51d0452a4a8ca3c8);
+        
+
+        marker_67c1db7f742ba3e5b9a6e1563e11c738.bindPopup(popup_d1f85f9ff6a3dd8892aca8defd5310cc)
+        ;
+
+        
+    
+    
+            var marker_ae9851394e5903b1a7e64f0b98e562e5 = L.marker(
+                [53.143907, 45.024209],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_998be11135d64b32ce846d6c38f0737e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ae9851394e5903b1a7e64f0b98e562e5.setIcon(icon_998be11135d64b32ce846d6c38f0737e);
+        
+    
+        var popup_c4d1c8e0039b950ff5fd25ecb4802178 = L.popup({"maxWidth": 400});
+
+        
+            var html_5e68cdbfe2a5714a77ea496c9642d703 = $(`<div id="html_5e68cdbfe2a5714a77ea496c9642d703" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>КИЯ РИО2012Е692ЕТ58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_c4d1c8e0039b950ff5fd25ecb4802178.setContent(html_5e68cdbfe2a5714a77ea496c9642d703);
+        
+
+        marker_ae9851394e5903b1a7e64f0b98e562e5.bindPopup(popup_c4d1c8e0039b950ff5fd25ecb4802178)
+        ;
+
+        
+    
+    
+            var marker_6b01988deefb419adcd4431ac817b265 = L.marker(
+                [53.137441, 45.023302],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_5b4259057a092905cb98dc2f4cbbf9f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6b01988deefb419adcd4431ac817b265.setIcon(icon_5b4259057a092905cb98dc2f4cbbf9f9);
+        
+    
+        var popup_f293e4515842a9e7f55241850746e288 = L.popup({"maxWidth": 400});
+
+        
+            var html_2a7aa621bec0e3312fec84f69a2f09c7 = $(`<div id="html_2a7aa621bec0e3312fec84f69a2f09c7" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>AUDI A42008Т382ВЕ58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_f293e4515842a9e7f55241850746e288.setContent(html_2a7aa621bec0e3312fec84f69a2f09c7);
+        
+
+        marker_6b01988deefb419adcd4431ac817b265.bindPopup(popup_f293e4515842a9e7f55241850746e288)
+        ;
+
+        
+    
+    
+            var marker_f0c5c9206d99c4d6ad049f065c597357 = L.marker(
+                [53.137441, 45.023302],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_6d2aa4e5d168ac3065c65635f5c81bc1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f0c5c9206d99c4d6ad049f065c597357.setIcon(icon_6d2aa4e5d168ac3065c65635f5c81bc1);
+        
+    
+        var popup_20fd0f58255156dc014512da779fa218 = L.popup({"maxWidth": 400});
+
+        
+            var html_ec097ff29486618847e5952c4f847827 = $(`<div id="html_ec097ff29486618847e5952c4f847827" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>AUDI A42008Т382ВЕ58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_20fd0f58255156dc014512da779fa218.setContent(html_ec097ff29486618847e5952c4f847827);
+        
+
+        marker_f0c5c9206d99c4d6ad049f065c597357.bindPopup(popup_20fd0f58255156dc014512da779fa218)
+        ;
+
+        
+    
+    
+            var marker_d1d1015bda9ee9ec427f3e705e209365 = L.marker(
+                [53.20981, 45.007446],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_f60b4f29df6b66712239d151cb064fab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d1d1015bda9ee9ec427f3e705e209365.setIcon(icon_f60b4f29df6b66712239d151cb064fab);
+        
+    
+        var popup_7440cdf12c0715281a714a83fc9aeb34 = L.popup({"maxWidth": 400});
+
+        
+            var html_b199974ae9f172f4f43399e6997899c2 = $(`<div id="html_b199974ae9f172f4f43399e6997899c2" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>KIA SPECTRA (FB2272)2007Т281АХ58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_7440cdf12c0715281a714a83fc9aeb34.setContent(html_b199974ae9f172f4f43399e6997899c2);
+        
+
+        marker_d1d1015bda9ee9ec427f3e705e209365.bindPopup(popup_7440cdf12c0715281a714a83fc9aeb34)
+        ;
+
+        
+    
+    
+            var marker_203442f54c76c0f918b76bf3ae8a8a18 = L.marker(
+                [53.139315, 45.031117],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_131a9d6f00a36f9eb32a9a8acd76efc8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_203442f54c76c0f918b76bf3ae8a8a18.setIcon(icon_131a9d6f00a36f9eb32a9a8acd76efc8);
+        
+    
+        var popup_428540add2372ba2cf34e731cb9aa33f = L.popup({"maxWidth": 400});
+
+        
+            var html_f03fe3b41bd603491e5164b5178f5c6b = $(`<div id="html_f03fe3b41bd603491e5164b5178f5c6b" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>NISSANALMERAС496ОН58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_428540add2372ba2cf34e731cb9aa33f.setContent(html_f03fe3b41bd603491e5164b5178f5c6b);
+        
+
+        marker_203442f54c76c0f918b76bf3ae8a8a18.bindPopup(popup_428540add2372ba2cf34e731cb9aa33f)
+        ;
+
+        
+    
+    
+            var marker_85971c03d97096080d1add371a4b40de = L.marker(
+                [53.233495, 44.934916],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_9e2ad7ad128afff4c28a8dd41b0a9d1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_85971c03d97096080d1add371a4b40de.setIcon(icon_9e2ad7ad128afff4c28a8dd41b0a9d1f);
+        
+    
+        var popup_f2db2955911610189bc85d900dc6ce2d = L.popup({"maxWidth": 400});
+
+        
+            var html_040a2845b2a0407ed4b66f84413bff2b = $(`<div id="html_040a2845b2a0407ed4b66f84413bff2b" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>LADA GRANTA 2194402023Т125ОС58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_f2db2955911610189bc85d900dc6ce2d.setContent(html_040a2845b2a0407ed4b66f84413bff2b);
+        
+
+        marker_85971c03d97096080d1add371a4b40de.bindPopup(popup_f2db2955911610189bc85d900dc6ce2d)
+        ;
+
+        
+    
+    
+            var marker_56a7566a852c31de2a0a47b5a63b95a9 = L.marker(
+                [53.19461, 45.023912],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_a636e55e8a9d714afbe15c88a86606ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_56a7566a852c31de2a0a47b5a63b95a9.setIcon(icon_a636e55e8a9d714afbe15c88a86606ab);
+        
+    
+        var popup_37169a4e1ba6aa6212f803f70b216f16 = L.popup({"maxWidth": 400});
+
+        
+            var html_a16924e39d115b13912df5e022524b14 = $(`<div id="html_a16924e39d115b13912df5e022524b14" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>ЛАДА 219010 ЛАДА ГРАНТА2017Р409НТ58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_37169a4e1ba6aa6212f803f70b216f16.setContent(html_a16924e39d115b13912df5e022524b14);
+        
+
+        marker_56a7566a852c31de2a0a47b5a63b95a9.bindPopup(popup_37169a4e1ba6aa6212f803f70b216f16)
+        ;
+
+        
+    
+    
+            var marker_946e113755c915e5aa9f2d2a1977c1e2 = L.marker(
+                [53.137441, 45.023302],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_0c6033b8c7b5c61052b600eae05ccf23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_946e113755c915e5aa9f2d2a1977c1e2.setIcon(icon_0c6033b8c7b5c61052b600eae05ccf23);
+        
+    
+        var popup_7688799e5bef4962fd334dee84760663 = L.popup({"maxWidth": 400});
+
+        
+            var html_ac36668fc09a76b6b4aa6435b0f92ee7 = $(`<div id="html_ac36668fc09a76b6b4aa6435b0f92ee7" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>AUDI A42008Т382ВЕ58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_7688799e5bef4962fd334dee84760663.setContent(html_ac36668fc09a76b6b4aa6435b0f92ee7);
+        
+
+        marker_946e113755c915e5aa9f2d2a1977c1e2.bindPopup(popup_7688799e5bef4962fd334dee84760663)
+        ;
+
+        
+    
+    
+            var marker_febea43c36d491b9e10a7134d590c145 = L.marker(
+                [53.214469, 44.989291],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_3e1c30953117aaf5b4663b83e850f815 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_febea43c36d491b9e10a7134d590c145.setIcon(icon_3e1c30953117aaf5b4663b83e850f815);
+        
+    
+        var popup_c6389c1c559202ad2ee29332de8a8e2a = L.popup({"maxWidth": 400});
+
+        
+            var html_48f22ece5417c5036df76b34554d9eba = $(`<div id="html_48f22ece5417c5036df76b34554d9eba" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>КИАXM FL (SORENTO)Т260ЕО58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_c6389c1c559202ad2ee29332de8a8e2a.setContent(html_48f22ece5417c5036df76b34554d9eba);
+        
+
+        marker_febea43c36d491b9e10a7134d590c145.bindPopup(popup_c6389c1c559202ad2ee29332de8a8e2a)
+        ;
+
+        
+    
+    
+            var marker_87b132f784713fe429512db0d45f9209 = L.marker(
+                [53.214469, 44.989291],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_3ba0616b3d5d65647bbbd92689704b72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_87b132f784713fe429512db0d45f9209.setIcon(icon_3ba0616b3d5d65647bbbd92689704b72);
+        
+    
+        var popup_2727f079c4cfcaf72da67355b0e65bc2 = L.popup({"maxWidth": 400});
+
+        
+            var html_4a3f216bd28eca217ea6fffdc519c66d = $(`<div id="html_4a3f216bd28eca217ea6fffdc519c66d" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>НИССАН АЛЬМЕЙРА2006Т030РК58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_2727f079c4cfcaf72da67355b0e65bc2.setContent(html_4a3f216bd28eca217ea6fffdc519c66d);
+        
+
+        marker_87b132f784713fe429512db0d45f9209.bindPopup(popup_2727f079c4cfcaf72da67355b0e65bc2)
+        ;
+
+        
+    
+    
+            var marker_7c147d0227aefc8d47620d5d886dc4eb = L.marker(
+                [53.220508, 44.95167],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_10d2c46c3a1932766376145e53d4613b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7c147d0227aefc8d47620d5d886dc4eb.setIcon(icon_10d2c46c3a1932766376145e53d4613b);
+        
+    
+        var popup_d3989d8bbc27291c9a8d6023989f8778 = L.popup({"maxWidth": 400});
+
+        
+            var html_364c7a8f4dfaf2958ac4b97a3af57b29 = $(`<div id="html_364c7a8f4dfaf2958ac4b97a3af57b29" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>KIA CERATO2021С390МХ58<br>Пензенская Область<br>Пенза<br>Пенза, тц слава<br>Адрес доставки<br>ЛАДА219010 ЛАДА ГРАНТАТ076КК58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_d3989d8bbc27291c9a8d6023989f8778.setContent(html_364c7a8f4dfaf2958ac4b97a3af57b29);
+        
+
+        marker_7c147d0227aefc8d47620d5d886dc4eb.bindPopup(popup_d3989d8bbc27291c9a8d6023989f8778)
+        ;
+
+        
+    
+    
+            var marker_41e8cf19446826b3520271da8eedcf9c = L.marker(
+                [53.244947, 45.018675],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_c4b5fdf4079eaefbf2a18357c90a6145 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_41e8cf19446826b3520271da8eedcf9c.setIcon(icon_c4b5fdf4079eaefbf2a18357c90a6145);
+        
+    
+        var popup_6cd783ba1e9a0476a52735a7edbb82d8 = L.popup({"maxWidth": 400});
+
+        
+            var html_2f1da92be04992606e7f14535b32760f = $(`<div id="html_2f1da92be04992606e7f14535b32760f" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>ВАЗ 211440 2011Т988ВХ58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_6cd783ba1e9a0476a52735a7edbb82d8.setContent(html_2f1da92be04992606e7f14535b32760f);
+        
+
+        marker_41e8cf19446826b3520271da8eedcf9c.bindPopup(popup_6cd783ba1e9a0476a52735a7edbb82d8)
+        ;
+
+        
+    
+    
+            var marker_138a880ffa5c096d4ae876031e138f2e = L.marker(
+                [53.225889, 45.005138],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_37095cd65f0d9b107808c1fa05f7c967 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_138a880ffa5c096d4ae876031e138f2e.setIcon(icon_37095cd65f0d9b107808c1fa05f7c967);
+        
+    
+        var popup_f37ab25402e6c99ab5f2470988bd761e = L.popup({"maxWidth": 400});
+
+        
+            var html_0ff45176be9c9a7f452c882515dd9408 = $(`<div id="html_0ff45176be9c9a7f452c882515dd9408" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>LADA219010 LADA GRANTAР650РК58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_f37ab25402e6c99ab5f2470988bd761e.setContent(html_0ff45176be9c9a7f452c882515dd9408);
+        
+
+        marker_138a880ffa5c096d4ae876031e138f2e.bindPopup(popup_f37ab25402e6c99ab5f2470988bd761e)
+        ;
+
+        
+    
+    
+            var marker_04fd09d1ab225713db4fa7d2248e1d17 = L.marker(
+                [53.175946, 45.062495],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_6c40023b029a161f16b987d5e88f866a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_04fd09d1ab225713db4fa7d2248e1d17.setIcon(icon_6c40023b029a161f16b987d5e88f866a);
+        
+    
+        var popup_02956110be0323e26ad1527dac54f9b9 = L.popup({"maxWidth": 400});
+
+        
+            var html_1858a2601bf89860503027074c851075 = $(`<div id="html_1858a2601bf89860503027074c851075" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>ЛЕНДРОВЕР RАNGЕ RОVЕR SРОRТ2012А049АА36<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_02956110be0323e26ad1527dac54f9b9.setContent(html_1858a2601bf89860503027074c851075);
+        
+
+        marker_04fd09d1ab225713db4fa7d2248e1d17.bindPopup(popup_02956110be0323e26ad1527dac54f9b9)
+        ;
+
+        
+    
+    
+            var marker_322b247c5a50d98c261e95c2f4ee7d72 = L.marker(
+                [53.158838, 44.992516],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_135b94b53a916c1a767ea29a139e55ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_322b247c5a50d98c261e95c2f4ee7d72.setIcon(icon_135b94b53a916c1a767ea29a139e55ef);
+        
+    
+        var popup_a7a36a9c664f50d5eda33f3f0e744fa9 = L.popup({"maxWidth": 400});
+
+        
+            var html_6361d906b912c31d80b1db17e40ba632 = $(`<div id="html_6361d906b912c31d80b1db17e40ba632" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>CHEVROLET KL1J CRUZE2014Т622РВ58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_a7a36a9c664f50d5eda33f3f0e744fa9.setContent(html_6361d906b912c31d80b1db17e40ba632);
+        
+
+        marker_322b247c5a50d98c261e95c2f4ee7d72.bindPopup(popup_a7a36a9c664f50d5eda33f3f0e744fa9)
+        ;
+
+        
+    
+    
+            var marker_bc458b65538d0dedb305e28dacc30fe1 = L.marker(
+                [53.167628, 44.980964],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_9db58fbad34231c8e1d2f0bcaf99d4eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bc458b65538d0dedb305e28dacc30fe1.setIcon(icon_9db58fbad34231c8e1d2f0bcaf99d4eb);
+        
+    
+        var popup_c7f92d97ca38fedfdb0abf88880b148d = L.popup({"maxWidth": 400});
+
+        
+            var html_ea452d5abd0798079e8fbcb4deab6590 = $(`<div id="html_ea452d5abd0798079e8fbcb4deab6590" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>ВАЗ21140  Т185РВ58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_c7f92d97ca38fedfdb0abf88880b148d.setContent(html_ea452d5abd0798079e8fbcb4deab6590);
+        
+
+        marker_bc458b65538d0dedb305e28dacc30fe1.bindPopup(popup_c7f92d97ca38fedfdb0abf88880b148d)
+        ;
+
+        
+    
+    
+            var marker_4a472621d8aa724601a8c062ccae4679 = L.marker(
+                [53.167768, 45.00132],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_78e0726cb9befc5ea7e3e0be4c889bad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4a472621d8aa724601a8c062ccae4679.setIcon(icon_78e0726cb9befc5ea7e3e0be4c889bad);
+        
+    
+        var popup_052af347b20dc355175dd811346eaae3 = L.popup({"maxWidth": 400});
+
+        
+            var html_1a08141e99d5597b81f4ba6db5ae0e17 = $(`<div id="html_1a08141e99d5597b81f4ba6db5ae0e17" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>ЛИФАН215800О430ХВ58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_052af347b20dc355175dd811346eaae3.setContent(html_1a08141e99d5597b81f4ba6db5ae0e17);
+        
+
+        marker_4a472621d8aa724601a8c062ccae4679.bindPopup(popup_052af347b20dc355175dd811346eaae3)
+        ;
+
+        
+    
+    
+            var marker_9989291e0c91812550988873f658449f = L.marker(
+                [53.197313, 45.00105],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_c2d5c8302f7cbffcc0d34d4781df7578 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9989291e0c91812550988873f658449f.setIcon(icon_c2d5c8302f7cbffcc0d34d4781df7578);
+        
+    
+        var popup_b2fada366e5660fd2b399abfa876e86d = L.popup({"maxWidth": 400});
+
+        
+            var html_8ad26b642fc81243b26ca2c69fcec428 = $(`<div id="html_8ad26b642fc81243b26ca2c69fcec428" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>STELS FLEX 250 20142287АК58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_b2fada366e5660fd2b399abfa876e86d.setContent(html_8ad26b642fc81243b26ca2c69fcec428);
+        
+
+        marker_9989291e0c91812550988873f658449f.bindPopup(popup_b2fada366e5660fd2b399abfa876e86d)
+        ;
+
+        
+    
+    
+            var marker_de6ba23cbfc3a3bc630331e4702c3450 = L.marker(
+                [53.199303, 45.018648],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_94d45305cc8f659f2af6b7bca1122816 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_de6ba23cbfc3a3bc630331e4702c3450.setIcon(icon_94d45305cc8f659f2af6b7bca1122816);
+        
+    
+        var popup_8939556db0e9dde72c1015a997d48351 = L.popup({"maxWidth": 400});
+
+        
+            var html_ce2040ee1648759b1be333f58d2c0785 = $(`<div id="html_ce2040ee1648759b1be333f58d2c0785" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>ЛАДАПРИОРА 217030Н807СХ124<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_8939556db0e9dde72c1015a997d48351.setContent(html_ce2040ee1648759b1be333f58d2c0785);
+        
+
+        marker_de6ba23cbfc3a3bc630331e4702c3450.bindPopup(popup_8939556db0e9dde72c1015a997d48351)
+        ;
+
+        
+    
+    
+            var marker_a72f6b783d9d6b558bd53fef4ae02a06 = L.marker(
+                [53.199303, 45.018648],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_28a7aa502f78abf9d91c879d70bff2ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a72f6b783d9d6b558bd53fef4ae02a06.setIcon(icon_28a7aa502f78abf9d91c879d70bff2ce);
+        
+    
+        var popup_8b1dcb355229565220b025c84311a877 = L.popup({"maxWidth": 400});
+
+        
+            var html_792e106f78365fb335989fc91e4e8121 = $(`<div id="html_792e106f78365fb335989fc91e4e8121" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>ЛАДА217250 ЛАДА ПРИОРАР257ТМ124<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_8b1dcb355229565220b025c84311a877.setContent(html_792e106f78365fb335989fc91e4e8121);
+        
+
+        marker_a72f6b783d9d6b558bd53fef4ae02a06.bindPopup(popup_8b1dcb355229565220b025c84311a877)
+        ;
+
+        
+    
+    
+            var marker_b47ea53bc0b5a2a9b64dd02fe55b4a6d = L.marker(
+                [53.199303, 45.018648],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_5c76a0127f6a8c31d771fd201e86974a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b47ea53bc0b5a2a9b64dd02fe55b4a6d.setIcon(icon_5c76a0127f6a8c31d771fd201e86974a);
+        
+    
+        var popup_4facc940e3a0265589c0d4689aaa74c2 = L.popup({"maxWidth": 400});
+
+        
+            var html_c63c9e16f5f09129137f74a41913b6e7 = $(`<div id="html_c63c9e16f5f09129137f74a41913b6e7" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>МЕРСЕДЕС-БЕНЦС200Х647СХ124<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_4facc940e3a0265589c0d4689aaa74c2.setContent(html_c63c9e16f5f09129137f74a41913b6e7);
+        
+
+        marker_b47ea53bc0b5a2a9b64dd02fe55b4a6d.bindPopup(popup_4facc940e3a0265589c0d4689aaa74c2)
+        ;
+
+        
+    
+    
+            var marker_0d96830d1056d810485350b95390502e = L.marker(
+                [53.199303, 45.018648],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_8c8c9ada661a10784de05b8d2fd023fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0d96830d1056d810485350b95390502e.setIcon(icon_8c8c9ada661a10784de05b8d2fd023fe);
+        
+    
+        var popup_077b64e97060b44033ce54deefd0761e = L.popup({"maxWidth": 400});
+
+        
+            var html_c69b33c8acf32087ab681f8ec3860bb1 = $(`<div id="html_c69b33c8acf32087ab681f8ec3860bb1" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>ХОНДАЛОГОН642СУ124<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_077b64e97060b44033ce54deefd0761e.setContent(html_c69b33c8acf32087ab681f8ec3860bb1);
+        
+
+        marker_0d96830d1056d810485350b95390502e.bindPopup(popup_077b64e97060b44033ce54deefd0761e)
+        ;
+
+        
+    
+    
+            var marker_5d5df8db45c95b1c1a1fa538782016e7 = L.marker(
+                [53.244726, 45.016393],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_3cc604d2260f25c23e24231087cc39a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5d5df8db45c95b1c1a1fa538782016e7.setIcon(icon_3cc604d2260f25c23e24231087cc39a5);
+        
+    
+        var popup_eb2bdc06654a37d9f243d437c5e25b80 = L.popup({"maxWidth": 400});
+
+        
+            var html_0d8fb99b2468323421371dc6368380d0 = $(`<div id="html_0d8fb99b2468323421371dc6368380d0" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>ВАЗ 211440 2011Т988ВХ58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_eb2bdc06654a37d9f243d437c5e25b80.setContent(html_0d8fb99b2468323421371dc6368380d0);
+        
+
+        marker_5d5df8db45c95b1c1a1fa538782016e7.bindPopup(popup_eb2bdc06654a37d9f243d437c5e25b80)
+        ;
+
+        
+    
+    
+            var marker_6d41411ae59593bcc3f6b5583e5d2451 = L.marker(
+                [53.250011, 45.014624],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_c52c8f0f66c82f3e0553495bcd7f3f84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6d41411ae59593bcc3f6b5583e5d2451.setIcon(icon_c52c8f0f66c82f3e0553495bcd7f3f84);
+        
+    
+        var popup_3a50bec0be62034cc8afb0a04c0be080 = L.popup({"maxWidth": 400});
+
+        
+            var html_965228e455e63afb7a08d80c693639a2 = $(`<div id="html_965228e455e63afb7a08d80c693639a2" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>ВАЗ211122005О245РС58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_3a50bec0be62034cc8afb0a04c0be080.setContent(html_965228e455e63afb7a08d80c693639a2);
+        
+
+        marker_6d41411ae59593bcc3f6b5583e5d2451.bindPopup(popup_3a50bec0be62034cc8afb0a04c0be080)
+        ;
+
+        
+    
+    
+            var marker_fef6ed9499a83191fcf209cce8b3e282 = L.marker(
+                [53.172232, 45.008893],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_d3960c0745966c3299dda4d4688e2255 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fef6ed9499a83191fcf209cce8b3e282.setIcon(icon_d3960c0745966c3299dda4d4688e2255);
+        
+    
+        var popup_6da97faa4f550fd9e02858c5f1d2dd0b = L.popup({"maxWidth": 400});
+
+        
+            var html_c982beb67aa1d0f2a56859c60efa581e = $(`<div id="html_c982beb67aa1d0f2a56859c60efa581e" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>НИССАН X-TRAIL 2.5 LE 2008М353ТК58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_6da97faa4f550fd9e02858c5f1d2dd0b.setContent(html_c982beb67aa1d0f2a56859c60efa581e);
+        
+
+        marker_fef6ed9499a83191fcf209cce8b3e282.bindPopup(popup_6da97faa4f550fd9e02858c5f1d2dd0b)
+        ;
+
+        
+    
+    
+            var marker_cccc81d320489f40adb51860985af348 = L.marker(
+                [53.164686, 44.986489],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_67e13844bec9355802dbaf82aa9929e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cccc81d320489f40adb51860985af348.setIcon(icon_67e13844bec9355802dbaf82aa9929e4);
+        
+    
+        var popup_a81987adc6c6f8531a8ffa02f604711c = L.popup({"maxWidth": 400});
+
+        
+            var html_8ea52eb76fe2c2766656d5255a6331fd = $(`<div id="html_8ea52eb76fe2c2766656d5255a6331fd" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>КИА РИО  2016 Р858МА58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_a81987adc6c6f8531a8ffa02f604711c.setContent(html_8ea52eb76fe2c2766656d5255a6331fd);
+        
+
+        marker_cccc81d320489f40adb51860985af348.bindPopup(popup_a81987adc6c6f8531a8ffa02f604711c)
+        ;
+
+        
+    
+    
+            var marker_90f6e146d0c13582faf6bae858832154 = L.marker(
+                [53.16603131391184, 44.98374355784728],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_47dc078cf3b25e1f7e42e68591de5720 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_90f6e146d0c13582faf6bae858832154.setIcon(icon_47dc078cf3b25e1f7e42e68591de5720);
+        
+    
+        var popup_2acc93cf6be49119d80c80883b66c918 = L.popup({"maxWidth": 400});
+
+        
+            var html_8a3a07b00078da4c9c802eeb771f6342 = $(`<div id="html_8a3a07b00078da4c9c802eeb771f6342" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>ЛЕНДРОВЕР RАNGЕ RОVЕR SРОRТ2012А049АА36<br>Пензенская Область<br>Пенза<br>ГЕО адрес<br>ЛАДА219010 ЛАДА ГРАНТАТ076КК58<br>Пензенская Область<br>Пенза<br>ГЕО адрес<br>CHERYTII TIGGOС324НМ58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_2acc93cf6be49119d80c80883b66c918.setContent(html_8a3a07b00078da4c9c802eeb771f6342);
+        
+
+        marker_90f6e146d0c13582faf6bae858832154.bindPopup(popup_2acc93cf6be49119d80c80883b66c918)
+        ;
+
+        
+    
+    
+            var marker_d840dd263524bea6780040841869bf65 = L.marker(
+                [53.20981, 45.007446],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_284930bc4ec106467d3dce80800eb33e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d840dd263524bea6780040841869bf65.setIcon(icon_284930bc4ec106467d3dce80800eb33e);
+        
+    
+        var popup_24943702999f076eda08cbbc31cb36eb = L.popup({"maxWidth": 400});
+
+        
+            var html_1567567c3211a65e43ba925a9466f197 = $(`<div id="html_1567567c3211a65e43ba925a9466f197" style="width: 100.0%; height: 100.0%;">Фактический адрес<br>KIA SPECTRA (FB2272)2007Т281АХ58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_24943702999f076eda08cbbc31cb36eb.setContent(html_1567567c3211a65e43ba925a9466f197);
+        
+
+        marker_d840dd263524bea6780040841869bf65.bindPopup(popup_24943702999f076eda08cbbc31cb36eb)
+        ;
+
+        
+    
+    
+            var marker_d78f5a03804e1642c88a18bf8eb16dc9 = L.marker(
+                [53.13749, 45.023481],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_ac0216e6473e5a561cfa8cba559bdc5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d78f5a03804e1642c88a18bf8eb16dc9.setIcon(icon_ac0216e6473e5a561cfa8cba559bdc5d);
+        
+    
+        var popup_37097d9fd4154438f29fcd968d5f864b = L.popup({"maxWidth": 400});
+
+        
+            var html_5937368abe017c02b3b15bbebceff792 = $(`<div id="html_5937368abe017c02b3b15bbebceff792" style="width: 100.0%; height: 100.0%;">Адрес регистрации<br>AUDI A42008Т382ВЕ58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_37097d9fd4154438f29fcd968d5f864b.setContent(html_5937368abe017c02b3b15bbebceff792);
+        
+
+        marker_d78f5a03804e1642c88a18bf8eb16dc9.bindPopup(popup_37097d9fd4154438f29fcd968d5f864b)
+        ;
+
+        
+    
+    
+            var marker_8c92086d36dbe047efd13802bbfbdd38 = L.marker(
+                [53.130439, 45.02729],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_c746799444b0798d7d17e888b1a08789 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8c92086d36dbe047efd13802bbfbdd38.setIcon(icon_c746799444b0798d7d17e888b1a08789);
+        
+    
+        var popup_d2416fadc62510a6b70e4486dadf7807 = L.popup({"maxWidth": 400});
+
+        
+            var html_7ddfadef5695003f88d2868fd9f99d80 = $(`<div id="html_7ddfadef5695003f88d2868fd9f99d80" style="width: 100.0%; height: 100.0%;">Адрес регистрации<br>МАЗДА323 1.5 СР508ХС790<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_d2416fadc62510a6b70e4486dadf7807.setContent(html_7ddfadef5695003f88d2868fd9f99d80);
+        
+
+        marker_8c92086d36dbe047efd13802bbfbdd38.bindPopup(popup_d2416fadc62510a6b70e4486dadf7807)
+        ;
+
+        
+    
+    
+            var marker_ef8027beb193dd8e49432cb47bb2b5a6 = L.marker(
+                [53.13749, 45.023481],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_e1f3959416ead74dd5aa12333f972b10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ef8027beb193dd8e49432cb47bb2b5a6.setIcon(icon_e1f3959416ead74dd5aa12333f972b10);
+        
+    
+        var popup_b4bd98a063c91ec997986027a04cba7d = L.popup({"maxWidth": 400});
+
+        
+            var html_5ac39403c4c241c9768780fb2efd2578 = $(`<div id="html_5ac39403c4c241c9768780fb2efd2578" style="width: 100.0%; height: 100.0%;">Адрес регистрации<br>AUDI A42008Т382ВЕ58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_b4bd98a063c91ec997986027a04cba7d.setContent(html_5ac39403c4c241c9768780fb2efd2578);
+        
+
+        marker_ef8027beb193dd8e49432cb47bb2b5a6.bindPopup(popup_b4bd98a063c91ec997986027a04cba7d)
+        ;
+
+        
+    
+    
+            var marker_f6843c541df1751f54b9b94a31b3b563 = L.marker(
+                [53.242499, 45.001931],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_b2b1b71644bc9a847053c85bde16b6ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f6843c541df1751f54b9b94a31b3b563.setIcon(icon_b2b1b71644bc9a847053c85bde16b6ef);
+        
+    
+        var popup_8d2125affb07b3e0171e53bb960a121c = L.popup({"maxWidth": 400});
+
+        
+            var html_7e6b8a7cc3b04ccc4166ce0c71e1fa70 = $(`<div id="html_7e6b8a7cc3b04ccc4166ce0c71e1fa70" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>KIA SORENTO 2009 С744ХЕ197<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_8d2125affb07b3e0171e53bb960a121c.setContent(html_7e6b8a7cc3b04ccc4166ce0c71e1fa70);
+        
+
+        marker_f6843c541df1751f54b9b94a31b3b563.bindPopup(popup_8d2125affb07b3e0171e53bb960a121c)
+        ;
+
+        
+    
+    
+            var marker_ffba2245345c34bf6d2700b5121e6b66 = L.marker(
+                [53.195278, 45.017331],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_6e604a161f72fd9d619c5563035ad992 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ffba2245345c34bf6d2700b5121e6b66.setIcon(icon_6e604a161f72fd9d619c5563035ad992);
+        
+    
+        var popup_02d5ab93ce3deb0a30fb72cb5409a5ea = L.popup({"maxWidth": 400});
+
+        
+            var html_5702f1ef9f531304a373d6cca8fed7ed = $(`<div id="html_5702f1ef9f531304a373d6cca8fed7ed" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>LADA LARGUS 2013 Т437ТТ58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_02d5ab93ce3deb0a30fb72cb5409a5ea.setContent(html_5702f1ef9f531304a373d6cca8fed7ed);
+        
+
+        marker_ffba2245345c34bf6d2700b5121e6b66.bindPopup(popup_02d5ab93ce3deb0a30fb72cb5409a5ea)
+        ;
+
+        
+    
+    
+            var marker_d72cb02427265c3f88bd702859dbf0bc = L.marker(
+                [53.179385, 45.010595],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_13214eb850a417c6776a5ccbb6c1db59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d72cb02427265c3f88bd702859dbf0bc.setIcon(icon_13214eb850a417c6776a5ccbb6c1db59);
+        
+    
+        var popup_652d5756ad540a4c24d16cb77bb30350 = L.popup({"maxWidth": 400});
+
+        
+            var html_bd94ca4c1216a877833cb2e1d2df6ce5 = $(`<div id="html_bd94ca4c1216a877833cb2e1d2df6ce5" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>PEUGEOT 308 2011 У151МК58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_652d5756ad540a4c24d16cb77bb30350.setContent(html_bd94ca4c1216a877833cb2e1d2df6ce5);
+        
+
+        marker_d72cb02427265c3f88bd702859dbf0bc.bindPopup(popup_652d5756ad540a4c24d16cb77bb30350)
+        ;
+
+        
+    
+    
+            var marker_22b0df188f9184cea4c184d7727f177d = L.marker(
+                [53.168212, 45.010078],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_5cfb7bbf7b2c1ae5de867b9ff847abab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_22b0df188f9184cea4c184d7727f177d.setIcon(icon_5cfb7bbf7b2c1ae5de867b9ff847abab);
+        
+    
+        var popup_8f8ec3b55276a40d6850c39ef28b8e22 = L.popup({"maxWidth": 400});
+
+        
+            var html_071aac29842dbc8920145264611b0466 = $(`<div id="html_071aac29842dbc8920145264611b0466" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>KIA RIO 2011 Е091СО58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_8f8ec3b55276a40d6850c39ef28b8e22.setContent(html_071aac29842dbc8920145264611b0466);
+        
+
+        marker_22b0df188f9184cea4c184d7727f177d.bindPopup(popup_8f8ec3b55276a40d6850c39ef28b8e22)
+        ;
+
+        
+    
+    
+            var marker_d51261e1b5896a4498a6beeee710c698 = L.marker(
+                [53.167055, 45.000858],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_2253b5e9853850cd8c7f2a47ff648c30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d51261e1b5896a4498a6beeee710c698.setIcon(icon_2253b5e9853850cd8c7f2a47ff648c30);
+        
+    
+        var popup_10bf280cffb4d28ead8e68d74adee96f = L.popup({"maxWidth": 400});
+
+        
+            var html_2f630e1ff01fe974fa4a2b1dae00be1b = $(`<div id="html_2f630e1ff01fe974fa4a2b1dae00be1b" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>HYUNDAI SOLARIS 2015 Т308ОУ58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_10bf280cffb4d28ead8e68d74adee96f.setContent(html_2f630e1ff01fe974fa4a2b1dae00be1b);
+        
+
+        marker_d51261e1b5896a4498a6beeee710c698.bindPopup(popup_10bf280cffb4d28ead8e68d74adee96f)
+        ;
+
+        
+    
+    
+            var marker_689a3611786f4c86eb101930b58a1f6a = L.marker(
+                [53.19639, 45.02594],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_a20b025229a289d2e4483ff2e8df27ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_689a3611786f4c86eb101930b58a1f6a.setIcon(icon_a20b025229a289d2e4483ff2e8df27ca);
+        
+    
+        var popup_78e0d218a178e78db2d67e4861a7f7ed = L.popup({"maxWidth": 400});
+
+        
+            var html_acaa9b3ad08bfb3e1850cc3ea3a509be = $(`<div id="html_acaa9b3ad08bfb3e1850cc3ea3a509be" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>TOYOTA COROLLA 2007 М120КН58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_78e0d218a178e78db2d67e4861a7f7ed.setContent(html_acaa9b3ad08bfb3e1850cc3ea3a509be);
+        
+
+        marker_689a3611786f4c86eb101930b58a1f6a.bindPopup(popup_78e0d218a178e78db2d67e4861a7f7ed)
+        ;
+
+        
+    
+    
+            var marker_d36a5013b0627a70c853a0515058177d = L.marker(
+                [53.215709, 45.024478],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_7ede94d9fa7160f5c72092011711d374 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d36a5013b0627a70c853a0515058177d.setIcon(icon_7ede94d9fa7160f5c72092011711d374);
+        
+    
+        var popup_2c07db248cdb2d4f2740a0e24d62d0b0 = L.popup({"maxWidth": 400});
+
+        
+            var html_5e93a22a9a7635891efac7339fb35dee = $(`<div id="html_5e93a22a9a7635891efac7339fb35dee" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>ВАЗ 21093 2004 У386СН58<br>Пензенская Область<br>Пенза</div>`)[0];
+            popup_2c07db248cdb2d4f2740a0e24d62d0b0.setContent(html_5e93a22a9a7635891efac7339fb35dee);
+        
+
+        marker_d36a5013b0627a70c853a0515058177d.bindPopup(popup_2c07db248cdb2d4f2740a0e24d62d0b0)
+        ;
+
+        
+    
+    
+            var marker_1c4eaefb6d4caaa32d6b9ae1a4e8cef0 = L.marker(
+                [53.233182, 45.03556],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_712ebe824cfcba36573c54c52c84de23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1c4eaefb6d4caaa32d6b9ae1a4e8cef0.setIcon(icon_712ebe824cfcba36573c54c52c84de23);
+        
+    
+        var popup_609197a102dd839274b57ee10ecb3426 = L.popup({"maxWidth": 400});
+
+        
+            var html_6606418b83f9ea3dc2bf90c3838f5665 = $(`<div id="html_6606418b83f9ea3dc2bf90c3838f5665" style="width: 100.0%; height: 100.0%;">Адрес доставки<br>ВАЗ 21074 2005 Х726ТТ58</div>`)[0];
+            popup_609197a102dd839274b57ee10ecb3426.setContent(html_6606418b83f9ea3dc2bf90c3838f5665);
+        
+
+        marker_1c4eaefb6d4caaa32d6b9ae1a4e8cef0.bindPopup(popup_609197a102dd839274b57ee10ecb3426)
+        ;
+
+        
+    
+    
+            var marker_c2b9f3cafdf81a497a72be5aeae184c5 = L.marker(
+                [53.105833368379834, 45.071525238925005],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_ef97f9bfb558abc1b8600ada8ea5566e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c2b9f3cafdf81a497a72be5aeae184c5.setIcon(icon_ef97f9bfb558abc1b8600ada8ea5566e);
+        
+    
+        var popup_5cf6584706aec7603e99f1e2d0a1db38 = L.popup({"maxWidth": 400});
+
+        
+            var html_5b8c9952e9bf558d7fde3bd524fa1962 = $(`<div id="html_5b8c9952e9bf558d7fde3bd524fa1962" style="width: 100.0%; height: 100.0%;">Из строки с координатами: ЛАДА219010 ЛАДА ГРАНТАТ076КК58</div>`)[0];
+            popup_5cf6584706aec7603e99f1e2d0a1db38.setContent(html_5b8c9952e9bf558d7fde3bd524fa1962);
+        
+
+        marker_c2b9f3cafdf81a497a72be5aeae184c5.bindPopup(popup_5cf6584706aec7603e99f1e2d0a1db38)
+        ;
+
+        
+    
+    
+            var marker_e21c4d53a088232d86ece4217ddd375b = L.marker(
+                [53.16603131391184, 44.98374355784728],
+                {}
+            ).addTo(marker_cluster_c36509f374f334db9bb3b10961b3c37b);
+        
+    
+            var icon_ffe314e5481eef1371545b335ea69aa7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e21c4d53a088232d86ece4217ddd375b.setIcon(icon_ffe314e5481eef1371545b335ea69aa7);
+        
+    
+        var popup_9aaa4bc628efda944f3ded0dc29abe53 = L.popup({"maxWidth": 400});
+
+        
+            var html_5eb9f0c2d96f1677ed5f3fa2af8d721d = $(`<div id="html_5eb9f0c2d96f1677ed5f3fa2af8d721d" style="width: 100.0%; height: 100.0%;">Из строки с координатами: CHERYTII TIGGOС324НМ58</div>`)[0];
+            popup_9aaa4bc628efda944f3ded0dc29abe53.setContent(html_5eb9f0c2d96f1677ed5f3fa2af8d721d);
+        
+
+        marker_e21c4d53a088232d86ece4217ddd375b.bindPopup(popup_9aaa4bc628efda944f3ded0dc29abe53)
+        ;
+
+        
+    
+    
+            var circle_e2d829ecf9839adee6b598070079f052 = L.circle(
+                [53.206752, 45.034009],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_034771be173a2242c2be6f9f91a9ba10 = L.circle(
+                [53.206752, 45.034009],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_11584237fc269e00310546aee1d2ac88 = L.circle(
+                [53.17702, 45.10592],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_5788591320c512b7139282e4fc3e2d1a = L.circle(
+                [53.250011, 45.014624],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_de3794fda17cbad6dc0db335f42c74c8 = L.circle(
+                [53.207399, 44.989121],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_deaded7072aa74cee92d63d78eb93e16 = L.circle(
+                [53.166429, 44.990378],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_3200be65658f3cccfc27f8aa058bebc9 = L.circle(
+                [53.166429, 44.990378],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_b7a003a00a46ce93b0f9317f67a701ff = L.circle(
+                [53.222358, 45.045804],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_dd2a34ec2ccc07211b7d12eb3505d0bc = L.circle(
+                [53.222358, 45.045804],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_1ef03c899850ad40bdb4b9acf624032d = L.circle(
+                [53.172448, 44.99717],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_e4c40b1c7af646a858f870230723c09f = L.circle(
+                [53.157462, 45.028134],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_88704cf556fc0f0d9d38152cf80eec5e = L.circle(
+                [53.222293, 44.99646],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_c5fd35d169b9d4b7963f95dbf97cc1dc = L.circle(
+                [53.213628, 45.056225],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_166d13e425373fa4aceb890c834aaf8f = L.circle(
+                [53.231312, 45.064894],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_1b231a501776598991732b97ee18ca81 = L.circle(
+                [53.143907, 45.024209],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_236da97b211ea84693730756f1f77cac = L.circle(
+                [53.143907, 45.024209],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_b4e773fc8f1095bca7b8ae0884fdf9d5 = L.circle(
+                [53.143907, 45.024209],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_f554e6bad117b245a7b5d5f6b53b7fa9 = L.circle(
+                [53.137441, 45.023302],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_892f5769dbe91e55b18d9c8ab5d32b90 = L.circle(
+                [53.137441, 45.023302],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_fd6ffa0ec2a1b003a1c86156f91a2763 = L.circle(
+                [53.20981, 45.007446],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_b071194400270f777a657f592763a29c = L.circle(
+                [53.139315, 45.031117],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_1947588058de7bacef2c029a8605fc1f = L.circle(
+                [53.233495, 44.934916],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_c6b7e44ce42fa6743216e7f2b7543e28 = L.circle(
+                [53.19461, 45.023912],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_6211626aca1cf6ec9a78246d148e95c3 = L.circle(
+                [53.137441, 45.023302],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_c3be0deb18a3b7b763b54be9276756ab = L.circle(
+                [53.214469, 44.989291],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_552a84beaa225fc1c12b00fa7f902c39 = L.circle(
+                [53.214469, 44.989291],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_018e6f360a6be97815d1418ed229bc42 = L.circle(
+                [53.220508, 44.95167],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_316ce3488135fe2cb70f5b4a04c0ccaa = L.circle(
+                [53.244947, 45.018675],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_e110318ceaa8450a1b246da3a64d4ecf = L.circle(
+                [53.225889, 45.005138],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_f15b1c350fe025b4eec53f7368c93c39 = L.circle(
+                [53.175946, 45.062495],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_ec926e5b2103f675c19d456e0f443786 = L.circle(
+                [53.158838, 44.992516],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_f58b35bca6758a740813f2f53874f7e7 = L.circle(
+                [53.167628, 44.980964],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_3ade4cb5fe6b34cde42974360fc7983d = L.circle(
+                [53.167768, 45.00132],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_fd1963489bb45c9ca9d065ccbd1e7511 = L.circle(
+                [53.197313, 45.00105],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_c5ccb3593b2e9ed0d207b66d963b4935 = L.circle(
+                [53.199303, 45.018648],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_f7762a1bcaeb8864dad7ad8148c43eab = L.circle(
+                [53.199303, 45.018648],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_d56b102699cc9ed9eac1810468e1c0ad = L.circle(
+                [53.199303, 45.018648],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_04e8bb99ebddde607d4f7decaa688dec = L.circle(
+                [53.199303, 45.018648],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_b5d4d07cc41802cc8dc9907d631a92eb = L.circle(
+                [53.244726, 45.016393],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_33c22dcd764b8a72c3d421c1da567616 = L.circle(
+                [53.250011, 45.014624],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_9940f161227847048cb847d4b5985796 = L.circle(
+                [53.172232, 45.008893],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_6ad83bc1977f40a1f9cc6d76d5c7ede3 = L.circle(
+                [53.164686, 44.986489],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_53ce8f9ff30dd4894efcbcd43c7fd94b = L.circle(
+                [53.16603131391184, 44.98374355784728],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_5da52988c088038e013b7da012601e3f = L.circle(
+                [53.20981, 45.007446],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_8ce8a39bc5d7ca3ece53c8edb87dbb02 = L.circle(
+                [53.13749, 45.023481],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_6925c5423f58e39ebd332f48c1b89667 = L.circle(
+                [53.130439, 45.02729],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_e11f3c71336f314701339fad24e5f8be = L.circle(
+                [53.13749, 45.023481],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_504fb099272d0c8fd563b85bf1c4ddbb = L.circle(
+                [53.242499, 45.001931],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_d7bbb378251e1738ee11d3864de76af9 = L.circle(
+                [53.195278, 45.017331],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_dc3f8be0bf6fd60db63f9b89d83319d5 = L.circle(
+                [53.179385, 45.010595],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_43f4b1f803d84ce48db0538c038793df = L.circle(
+                [53.168212, 45.010078],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_2d02680741a4d4e7e3a4cdb72e569a7e = L.circle(
+                [53.167055, 45.000858],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_dce4b747493c57069cd27ae17ec49899 = L.circle(
+                [53.19639, 45.02594],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_34f175dcf5e0cab91f131fd1f77c68a6 = L.circle(
+                [53.215709, 45.024478],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_01cdb75a827d2e445d2b32159eef2903 = L.circle(
+                [53.233182, 45.03556],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_b6cb36998d3b06b948e1556e5a180b92 = L.circle(
+                [53.105833368379834, 45.071525238925005],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+    
+            var circle_4c25bd9bc416270558a557b62fae7b50 = L.circle(
+                [53.16603131391184, 44.98374355784728],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_f1025757eac7b44ebb39394653d7d0ae);
+        
+</script>
+</html>
